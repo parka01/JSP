@@ -1,8 +1,14 @@
 package jsp;
 
-public class functionClass {
+public class FunctionClass {
+	/**
+	 * maeItLower ³»°¡ ¼³Á¤ÇÑ ¸Ş¼Òµå ÀÌ¸§. lowerCase¶ó´øÁö ¸¶À½´ë·Î ÁöÁ¤°¡´É
+	 * @param data       
+	 * @return String     
+	 */
 	public static String makeItLower(String data) {
 		return data.toLowerCase();
 	}
 }
-//maeItLowerë¶€ë¶„ì€ ì„ì˜ë¡œ ì„¤ì •í•œ ë©”ì†Œë“œ ì´ë¦„ì´ë‹¤. lowerCaseë¼ë˜ì§€ ë§ˆìŒëŒ€ë¡œ ì§€ì •ê°€ëŠ¥
+
+ 

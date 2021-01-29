@@ -28,5 +28,11 @@ String makeItLower(String data){
 %>
 
 Lower case "Hello World": <%= makeItLower("Hello World") %>
+
+<!-- random -->
+<%
+	String cartId = session.getId();  //브라우저 접속시 자동생성된 세션id를 가져온다.
+%>
+	<p>	Order# :	<%	out.println(cartId);	%>		
 </body>
 </html>
