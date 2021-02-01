@@ -1,0 +1,32 @@
+<html>
+
+<header><title>Student Registration Form</title></header>
+
+<body>
+
+<form action="c20_radioButtons_response.jsp">
+
+	First name: <input type="text" name="firstName" />
+	<br><br>
+	
+	Last name: <input type="text" name="lastName" />
+	
+	<br><br>
+		
+	Faborite Programming Language: <br>
+	<input type="radio" name="favoriteLanguage" value="Java">Java
+	<input type="radio" name="favoriteLanguage" value="C">C#
+	<input type="radio" name="favoriteLanguage" value="PHP">PHP
+	<input type="radio" name="favoriteLanguage" value="Ruby">Run
+	<!-- I tested giving 4th options value as Ruby but text as Run to see which part is saved and shown on jsp file
+	I figured value="Ruby" is showing on jsp file but word Run is just for label for the radio button options. -->
+	<br><br>
+	
+	<input type="submit" value="Submit" />
+
+</form>
+
+</body>
+
+</html>
+
