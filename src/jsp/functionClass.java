@@ -1,8 +1,8 @@
 package jsp;
 
-public class FunctionClass {
+public class functionClass {
 	/**
-	 * maeItLower ³»°¡ ¼³Á¤ÇÑ ¸Þ¼Òµå ÀÌ¸§. lowerCase¶ó´øÁö ¸¶À½´ë·Î ÁöÁ¤°¡´É
+	 * maeItLower ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¼Òµï¿½ ï¿½Ì¸ï¿½. lowerCaseï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 * @param data       
 	 * @return String     
 	 */

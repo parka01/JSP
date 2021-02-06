@@ -4,7 +4,7 @@
 
 <body>
 
-<form action="c20_radioButtons_response.jsp">
+<form action="c20_forms_radioButtons_response.jsp">
 
 	First name: <input type="text" name="firstName" />
 	<br><br>
@@ -13,13 +13,16 @@
 	
 	<br><br>
 		
-	Faborite Programming Language: <br>
+	Favorite Programming Language: <br>
 	<input type="radio" name="favoriteLanguage" value="Java">Java
 	<input type="radio" name="favoriteLanguage" value="C">C#
 	<input type="radio" name="favoriteLanguage" value="PHP">PHP
-	<input type="radio" name="favoriteLanguage" value="Ruby">Run
+	<input type="radio" name="favoriteLanguage" value="Ruby">Run<!-- Run:radio button text Ruby: data value -->
 	<!-- I tested giving 4th options value as Ruby but text as Run to see which part is saved and shown on jsp file
 	I figured value="Ruby" is showing on jsp file but word Run is just for label for the radio button options. -->
+	<!-- test2. Also you can make two different radio selection if you want to put two values
+	by set name into two different names -->
+	
 	<br><br>
 	
 	<input type="submit" value="Submit" />
